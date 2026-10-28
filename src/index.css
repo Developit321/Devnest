@@ -1304,8 +1304,25 @@ body {
   margin-bottom: 16px;
 }
 
-.legal-wrapper ul {
+.legal-wrapper ul,
+.legal-wrapper ol.delete-steps {
   margin: 16px 0 24px 24px;
+}
+
+.legal-wrapper ol.delete-steps {
+  list-style: decimal;
+}
+
+.legal-wrapper ol.delete-steps li {
+  font-size: 1.05rem;
+  color: var(--gray-dark);
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.legal-wrapper .btn-download {
+  display: inline-block;
+  margin: 8px 0 16px;
 }
 
 .legal-wrapper li {

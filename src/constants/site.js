@@ -25,6 +25,16 @@ export const ANDROID_BETA_URL =
 export const CONTACT_EMAIL =
   import.meta.env.VITE_CONTACT_EMAIL?.trim() || 'support@invitable.uk'
 
+/** Kin (location circle app) — use for App Store / Play support & privacy URLs */
+export const KIN_PRODUCT_NAME =
+  import.meta.env.VITE_KIN_PRODUCT_NAME?.trim() || 'Kin'
+
+export const KIN_SUPPORT_EMAIL =
+  import.meta.env.VITE_KIN_SUPPORT_EMAIL?.trim() || 'support@devnest.uk'
+
+export const KIN_API_URL =
+  import.meta.env.VITE_KIN_API_URL?.trim() || 'https://kin.devnest.uk'
+
 export const COMPANY_LEGAL_NAME = 'Devnest (Pty) Ltd'
 
 /** Registered address, update when final for filings */

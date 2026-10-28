@@ -18,4 +18,13 @@
   <url>
     <loc>__SITE_URL__/safety</loc>
   </url>
+  <url>
+    <loc>__SITE_URL__/kin/support</loc>
+  </url>
+  <url>
+    <loc>__SITE_URL__/kin/privacy</loc>
+  </url>
+  <url>
+    <loc>__SITE_URL__/kin/delete-account</loc>
+  </url>
 </urlset>
